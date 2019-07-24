@@ -10,6 +10,8 @@ btn.addEventListener('click', (e) => {
 
 btn.addEventListener('mouseover', (e) => {
   btn.style.background = "black";
+  btn.style.left = Math.floor(Math.random() * 80) + "%";
+  btn.style.top = Math.floor(Math.random() * 80) + "%";
 })
 
 btn.addEventListener('mouseleave', (e) => {
